@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
+
+*{
+  margin:0;
+  font-family: 'Gochi Hand', cursive;
+}
+.outerbox{
+  width:97.5%;
+  height:96.5vh;
+  border: 4px solid rgb(10, 10, 17);
+  background-color: rgb(245, 227, 169);
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+}
+.header{
+  font-size: 3rem;
+}
+.innerbox{
+  width:80vw;
+  height:75vh;
+  background-color: grey;
+  border-radius: 20px;
+  border: 4px solid rgb(2, 3, 1);
+  display: flex;
+  flex-flow: column;
+}
+
+/* input box------------------------------------------------------- */
+.inputBox{
+  display: inline-flex;
+  width: 75vw;
+  height: 20vh;
+  margin: 1rem 0rem 0rem 5rem;
+}
+.listItems{
+  overflow-y:auto;
+  width: 70vw;
+  height: 75vh;
+}
+
+.inputBox input{
+  font-size: 3rem;
+  width: 50vw;
+  height: 3.5rem;
+  margin: 0rem 2rem 1rem 8rem;
+  padding: 0rem 0rem 0rem 2rem;
+  border: 1px solid grey;
+  border-radius: 50px;
+  outline: 0;
+  background-color: #d1c6b2;
+}
+.inputBox button{
+  border:none;
+  background-color: grey;
+  font-size: 3rem;
+  height: 3.8rem;
+  width: 3.8rem;
+  margin: 0.0rem 0rem 0rem 0rem;
+  border-radius: 50%;
+}
+.inputBox button:hover{
+  background-color: #5eb45b;
+  border:none;
+  transform: scale(1.10);
+
+}
+
+/* list item------------------------------------------------------- */
+
+.listItems ul{
+  list-style: none;
+  padding-top: 0rem;
+  padding-left: 0rem;
+  font-size: 2rem;
+}
+.listItems ul li{
+  margin-bottom: 15px;
+}
+.listItems ul li button{
+  font-weight: bold;
+  background-color: grey;
+  font-size: 2rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  border:none;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.listItems ul li button:hover{
+  background-color: #eb4e4e;
+}
+
+
+.done{
+  background-color: rgb(174, 230, 174);
+}
+
+.notDone{
+  background-color: grey;
+}
+
+::-webkit-scrollbar{
+  width: 10px;
+}
+::-webkit-scrollbar-track{
+  background: grey;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-thumb{
+  background: rgb(59, 59, 59);
+  border-radius: 50px;
+}
